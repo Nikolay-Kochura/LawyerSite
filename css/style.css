@@ -4,6 +4,59 @@
     margin-top: 90px;
 }
 
+.homepage11{
+    background-color: #FAF7F0;
+}
+.bio-head{
+   font-family: Times new roman;
+	font-size: 40px;
+	font-weight: bold;
+	color: yellow;
+	text-shadow:
+	-0   -1px 3px #050500,
+		 0   -1px 3px #050500,
+		-0    1px 3px #050500,
+		 0    1px 3px #050500,
+		-1px -0   3px #050500,
+		 1px -0   3px #050500,
+		-1px  0   3px #050500,
+		 1px  0   3px #050500,
+		-1px -1px 3px #050500,
+		 1px -1px 3px #050500,
+		-1px  1px 3px #050500,
+		 1px  1px 3px #050500,
+		-1px -1px 3px #050500,
+		 1px -1px 3px #050500,
+		-1px  1px 3px #050500,
+		 1px  1px 3px #050500;
+}
+.bio-about{
+    font-family: Times new roman;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 18px;
+    line-height: 1.4em;
+}
+.bio-button{
+    display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid rgba(40,40,40,0.01);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal normal  17px/normal "Times New Roman", Times, serif;
+  color: rgba(0,0,0,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  letter-spacing: 1px;
+  background: #E8CE0E;
+
+}
+
 .bldesc {
 margin-left: -10px;
 background: #272525;
