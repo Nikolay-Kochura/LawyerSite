@@ -31,8 +31,9 @@
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #2c3f52;
-	color: #f3d80b;
+	background: #020001;
+	color: #7d6d59;
+    font-size: 1.2em;
 }
 
 .grid figcaption h3 {
@@ -49,7 +50,7 @@
 	padding: 5px 10px;
 	border-radius: 2px;
 	display: inline-block;
-	background: #f3d80b;
+	background: #7d6d59;
 	color: black;
 }
 
