@@ -26,6 +26,7 @@
 	position: relative;
 }
 
+
 .grid figcaption {
 	position: absolute;
 	top: 0;
@@ -46,6 +47,7 @@
 }
 
 .grid figcaption a {
+    font-size: 0.8em;
 	text-align: center;
 	padding: 5px 10px;
 	border-radius: 2px;
