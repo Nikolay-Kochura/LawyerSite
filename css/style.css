@@ -9,17 +9,72 @@ width: auto;
 }
 */
 
+.head-middle{
+   font-family: Times new roman;
+	font-size: 25px;
+	font-weight: bold;
+	color: #7d6d59;
+	text-shadow:
+	-0   -1px 3px white,
+		 0   -1px 3px white,
+		-0    1px 3px white,
+		 0    1px 3px white,
+		-1px -0   3px white,
+		 1px -0   3px white,
+		-1px  0   3px white,
+		 1px  0   3px white,
+		-1px -1px 3px white,
+		 1px -1px 3px white,
+		-1px  1px 3px white,
+		 1px  1px 3px white,
+		-1px -1px 3px white,
+		 1px -1px 3px white,
+		-1px  1px 3px white,
+		 1px  1px 3px white;
+}
+
+
+
+.bll{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: auto;
+    padding: 8px;
+    border-bottom: 5px solid #7d6d59; /* Белая рамка */
+
+}
+.date-blog{
+    font-style: oblique;
+}
+
 .gmap{
     padding: 20px 10px 10px 10px;
     width: 100%;
 /*    padding-right: 10px;*/
 }
 
+.video{
+/*    position: relative;*/
+    width: 100%;
+/*    height: auto;*/
+}
 
 .location-info{
     width: auto;
     padding: 20px 10px 10px 10px;
 }
+
+/*
+@media (max-width: 640px) {
+   .location-info {
+    width: auto;
+       margin-left: 3px;
+      padding: 20px 1px 1px 1px;
+  }
+
+}
+*/
+
 .contact{
     font-family: Times new roman;
     font-size: 2.0em;
@@ -703,6 +758,14 @@ ul.social-share li a:hover {
   border: none;
 }
 
+/*Reduced view for mobile menu*/
+@media (max-width: 640px) {
+   .navbar-fixed-top .navbar-nav > li > a {
+     line-height: 50px;
+}
+  }
+/*================================*/
+
 .navbar-fixed-top .navbar-brand {
   font-size: 36px;
   line-height: 50px;
@@ -831,7 +894,7 @@ ul.social-share li a:hover {
   padding-bottom: 40px;
 }
 #feature.transparent-bg {
-  margin-top:-40px;
+  margin-top: -40px;
   
 }
 .features{
@@ -922,7 +985,7 @@ ul.social-share li a:hover {
   height: 100%;
   opacity: 0;
   border-radius: 0;
-  background: #333;
+  background: #756754;
   color: #fff;
   vertical-align: middle;
   -webkit-transition: opacity 500ms;
@@ -975,7 +1038,7 @@ ul.social-share li a:hover {
 }
 
 #middle {
-  background: #fff;
+  background: #eff1c9;
   margin-top:-90px;
 }
 
@@ -1766,21 +1829,24 @@ ul.social_icons li  a i{
 ********* Portfolio CSS ******
 **************************/
 #portfolio {
-  margin-top: 70px;
-    background: #000 url(../images/portfolio/goldBack.jpg);
-  background-size: cover;
+/*  margin-top: 70px;*/
+/*    background: #272525 ;*/
+/*    width: 100%;*/
+/*  background-size: cover;*/
 }
 
 #portfolio_page {
-  margin-top: 115px;
+/*  margin-top: 115px;*/
   padding-bottom: 0;
 }
 
 .portfolio-items, 
 .portfolio-filter {
-  list-style: none outside none;
+/*  list-style: none outside none;*/
   margin: 0 0 40px 0;
   padding: 0;
+
+/*    width: 200%;*/
 }
 
 .portfolio-filter > li {
@@ -1821,9 +1887,13 @@ ul.social_icons li  a i{
 
 .portfolio-item {
   margin: 0;
-  padding:0;
-}
+    margin-top: 15px;
 
+  padding: -100px;
+}
+#pic{
+    border: 2px solid #7d6d59;
+}
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
 .isotope-item {
@@ -1928,11 +1998,7 @@ textarea#message{
 /*********************
 ****blog page css*****
 **********************/
-#blog {
-	margin-top:70px;
-    visibility: visible;
-    
-}
+
 
 /*
 .facb{
@@ -1975,29 +2041,7 @@ textarea#message{
     text-align: center;
 }
 
-.blog_category{
-  list-style:none;
-  margin:0;
-  padding:0;
-}
 
-.blog_category li{
-  float:none;
-  margin-bottom:20px;
-}
-
-.blog_category li a {
-  background:#f5f5f5;
-  border-radius: 4px;
-  color: #888;
-  display: inline-block;
-  padding: 5px 15px;
-}
-
-.blog_category li a:hover{
-  background:#7d6d59;
-  color: #fff;
-}
 
  .badge:before {
   border-color: transparent transparent transparent #7d6d59;
@@ -2022,20 +2066,6 @@ textarea#message{
   font-weight: normal;
 }
 
-.blog_archieve {
-  list-style: none outside none;
-  margin: 0;
-  padding: 0;
-}
-
-.blog_archieve li {
-  padding: 10px 0;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.blog_archieve li:first-child {
-  padding-top: 0;
-}
 
 ul.gallery {
   list-style: none;
