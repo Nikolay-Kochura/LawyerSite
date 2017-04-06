@@ -3,11 +3,33 @@
 .kostil{
     margin-top: 90px;
 }
-/*
-#rrr{
-width: auto;
+
+#call-button{
+    display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 8px 8px;
+  border: 1px solid rgba(40,40,40,0.01);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal normal  14px/normal "Times New Roman", Times, serif;
+  color: rgba(0,0,0,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  letter-spacing: 1px;
+  background: #7d6d59;
+    display: none;
 }
-*/
+
+@media (max-width: 640px) {
+   #call-button{
+    display: block;
+  }
+
+}
 
 .head-middle{
    font-family: Times new roman;
